@@ -1,4 +1,5 @@
-test.cpp
-test
-stdin.txt
-*.dSYM
+main.cpp
+main
+in.txt
+*.dSYM 
+/scrap
