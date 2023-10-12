@@ -3,7 +3,8 @@
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -std=c++20 && $dir$fileNameWithoutExt < in.txt && rm $dir$fileNameWithoutExt"
     },
     "files.associations": {
-        "vector": "cpp"
+        "vector": "cpp",
+        "bitset": "cpp"
     },
     "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach }",
     "[cpp]": {
