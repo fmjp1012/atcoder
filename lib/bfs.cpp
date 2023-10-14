@@ -23,7 +23,7 @@ void dfs(Graph &G, int s) {
 
     for (auto x: G.at(v)) {
       
-      if (seen.at(x) == true) continue;
+      if (seen.at(x)) continue;
 
       seen.at(x) = true;
       todo.push(x);
