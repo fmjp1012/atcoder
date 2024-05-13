@@ -1,3 +1,5 @@
 main
 in.txt
 *.dSYM 
+main.dSYM
+.DS_Store
