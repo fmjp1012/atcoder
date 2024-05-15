@@ -7,7 +7,8 @@
         "vector": "cpp",
         "bitset": "cpp",
         "queue": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "iostream": "cpp"
     },
     "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach }",
     "[cpp]": {
