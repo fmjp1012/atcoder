@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -std=c++20 && $dir$fileNameWithoutExt < in.txt && rm $dir$fileNameWithoutExt"
+        "cpp": "cd $dir && g++ -std=c++23 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < in.txt && rm $dir$fileNameWithoutExt"
     },
     "files.associations": {
         "*.css": "tailwindcss",
